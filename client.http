@@ -39,9 +39,9 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 
 # Create Question
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/0dbc2f98-4968-44be-4fdb-f399737e5e21/questions
 Content-Type: application/json
 
 {
-  "question": "Don't you get tired of doing that all the time?" 
+  "question": "O que é a vida?" 
 }
